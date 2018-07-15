@@ -1,0 +1,44 @@
+Define db.JSON file to have basic data structure
+Setup json-server to host this file. 
+
+start new project
+	ng new chrm --style=scss
+
+install required dependencies
+	npm install --save @angular/cdk": "^5.2.3
+	npm install --save @angular/material
+	npm install --save @angular/flex-layout@latest
+	npm install --save font-awesome
+	npm install --save hammerjs
+	npm install --save ngx-restangular
+
+	- add material-icon under <head> of  index.html
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	- add font-awesome to styles in .angular-cli.json
+		"../node_modules/font-awesome/scss/font-awesome.scss"
+
+Create Header and Footer Components
+	Header will have menu and routes
+
+Setup Router
+	- Import router module in app.module.ts
+	- Create new folder for app-routing
+	- Create app-routing/routs.ts. In this file define routes and target component.
+	- Create routing.module.ts and import in app.module.ts
+	
+Setup restangular
+	- Setup BaseURL in ./shared/baseurl.ts file
+	- Define RestangularConfigFactory in ./shared/restConfig.ts  
+	- In app.module.ts, 
+		. Setup  baseurl under 'providers'
+			{provide : 'BaseURL', useValue: baseURL}
+		. Setup restangular in 'imports' 
+			RestangularModule.forRoot(RestangularConfigFactory)
+
+Define TransferObjects for REST calls
+	- In ./shared/. define required class for the transfer objects e.g offer
+
+Define services for Components
+	- The services will use restangular to interact with JSON Server
+	- The TransferObjects defined earlier will be used by these services

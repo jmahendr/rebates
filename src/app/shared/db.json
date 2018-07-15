@@ -1,0 +1,885 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "code": "SUMMERSALES 2017",
+      "name": "Summer Sales 2017",
+      "description": "Summer Sales for year 2017",
+      "type": "Accrual",
+      "startDate": "2017-04-01",
+      "endDate": "2017-07-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Hilman Associates"
+        },
+        {
+          "id": 2,
+          "type": "Customer Group",
+          "valueId": 3,
+          "valueText": "Utha Farmers Co-op"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 12,
+          "itemDescription": "Seed Starter AC122",
+          "limit": 120,
+          "currency": "USD",
+          "price": 33.12,
+          "discountType": "%",
+          "discountValue": 10
+        },
+        {
+          "id": 2,
+          "itemId": 14,
+          "itemDescription": "Drip Irrigation Emiter 8l/min",
+          "limit": 50,
+          "currency": "USD",
+          "price": 7.56,
+          "discountType": "NEW",
+          "discountValue": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "YESALES",
+      "name": "Yearend Sales",
+      "description": " Year End Discounts",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Hilman Associates"
+        },
+        {
+          "id": 2,
+          "type": "Customer Group",
+          "valueId": 3,
+          "valueText": "Utha Farmers Co-op"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 12,
+          "itemDescription": "Seed Starter AC122",
+          "limit": 120,
+          "currency": "USD",
+          "price": 33.12,
+          "discountType": "%",
+          "discountValue": 10
+        },
+        {
+          "id": 2,
+          "itemId": 14,
+          "itemDescription": "Drip Irrigation Emiter 8l/min",
+          "limit": 50,
+          "currency": "USD",
+          "price": 7.56,
+          "discountType": "NEW",
+          "discountValue": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "PREFCUSTDISC",
+      "name": "Prefered Customer Discounts",
+      "description": "Christmas Sales FY 2018",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "code": "HONDACUSTS",
+      "name": "Honda Inc",
+      "description": "Promotions for Honda India Employees",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "code": "CISCOINC",
+      "name": "CISCO Inc",
+      "description": "Promotions for CISCO",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "code": "EMPDISC",
+      "name": "Employee Sales",
+      "description": "Discounts for internal employees",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "code": "GENSALES",
+      "name": "General Sales",
+      "description": "General Sales Promotions",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "code": "HOLIFEST",
+      "name": "Holi Fest",
+      "description": "Discounts for Holi",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "code": "TRADEUNIONDIS",
+      "name": "Trade Union Canteen",
+      "description": "Sale at Trade Union",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "code": "CHRISTMASSALE2018",
+      "name": "Christmas 2018",
+      "description": "Christmas Sales FY 2018",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "code": "SPRINGSALE",
+      "name": "Spring Sales",
+      "description": "Spring sales discounts",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "code": "SUMMERSALES",
+      "name": "SummerSales",
+      "description": "Summer Sales 2018",
+      "type": "Accrual",
+      "startDate": "2018-10-01",
+      "endDate": "2018-12-31",
+      "qualifiers": [
+        {
+          "id": 1,
+          "type": "Customer",
+          "valueId": 1,
+          "valueText": "Business World"
+        }
+      ],
+      "modifiers": [
+        {
+          "id": 1,
+          "itemId": 101,
+          "itemDescription": "TOYS",
+          "limit": 120,
+          "currency": "USD",
+          "price": 10,
+          "discountType": "%",
+          "discountValue": 10
+        }
+      ]
+    },
+    {
+      "name": "d",
+      "code": "d",
+      "description": "dd",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "2",
+          "valueText": "33"
+        }
+      ],
+      "modifiers": null,
+      "id": 13
+    },
+    {
+      "name": "Summer Discount",
+      "code": "DiscSummer",
+      "description": "Summer DIscount sales.",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "1",
+          "valueText": "Paramount Inc"
+        },
+        {
+          "type": "Customer Group",
+          "valueId": "3",
+          "valueText": "City Corporation"
+        },
+        {
+          "type": "Territory",
+          "valueId": "33",
+          "valueText": "Bangalore"
+        }
+      ],
+      "modifiers": null,
+      "id": 14
+    },
+    {
+      "name": "HiTech",
+      "code": "HTOFFR",
+      "description": "Hightect offers....",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "2",
+          "valueText": "cg1"
+        }
+      ],
+      "modifiers": null,
+      "id": 15
+    },
+    {
+      "name": "Food Discounts",
+      "code": "FOOD4ALL",
+      "description": "Food discounts under program food for all...",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "1",
+          "valueText": "C1"
+        },
+        {
+          "type": "Customer Group",
+          "valueId": "2",
+          "valueText": "Group1"
+        }
+      ],
+      "modifiers": null,
+      "id": 16
+    },
+    {
+      "name": "Winter Sale",
+      "code": "WINSALE",
+      "description": "Sales promotion for winter...",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "1",
+          "valueText": "Milk Producers Fed"
+        }
+      ],
+      "modifiers": null,
+      "id": 17
+    },
+    {
+      "name": "Sale Mar 2018",
+      "code": "S201803",
+      "description": "Sale for March 2018",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Territory",
+          "valueId": "1",
+          "valueText": "Bangalore South"
+        }
+      ],
+      "modifiers": null,
+      "id": 18
+    },
+    {
+      "name": "Discounts for Feb2018",
+      "code": "D201802",
+      "description": "Discount for Feb 2018",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "1",
+          "valueText": "C1"
+        }
+      ],
+      "modifiers": null,
+      "id": 19
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 20
+    },
+    {
+      "name": "Jan 2018",
+      "code": "201801",
+      "description": "Sales for Jan 2018",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "1",
+          "valueText": "CG11"
+        }
+      ],
+      "modifiers": null,
+      "id": 21
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 22
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "5",
+          "valueText": "jhbjhk"
+        },
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        },
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 23
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 24
+    },
+    {
+      "name": "TPG Discounts",
+      "code": "TPGDISC",
+      "description": "Discounts for TPG",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "1",
+          "valueText": "JAMES"
+        },
+        {
+          "type": "Territory",
+          "valueId": "1",
+          "valueText": "Territory"
+        }
+      ],
+      "modifiers": null,
+      "id": 25
+    },
+    {
+      "name": "Dell Promotions",
+      "code": "DELLDISC",
+      "description": "Discounts on Dell products",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "1",
+          "valueText": "C11"
+        }
+      ],
+      "modifiers": null,
+      "id": 26
+    },
+    {
+      "name": "Business Promotions",
+      "code": "BPromotions",
+      "description": "Some text for description....",
+      "startDate": "2018-02-28T18:30:00.000Z",
+      "endDate": "2018-03-30T18:30:00.000Z",
+      "type": "Accrual",
+      "status": "Active",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "1",
+          "valueText": "CG1"
+        },
+        {
+          "type": "Territory",
+          "valueId": "2",
+          "valueText": "Territory1"
+        }
+      ],
+      "modifiers": null,
+      "id": 27
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 28
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 29
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 30
+    },
+    {
+      "name": "Quick Sale",
+      "code": "QUICKSALE",
+      "description": "Simple Volume Offer",
+      "startDate": "2018-02-28T18:30:00.000Z",
+      "endDate": "2018-03-30T18:30:00.000Z",
+      "type": "Volume",
+      "status": "Active",
+      "qualifiers": [
+        {
+          "type": "Customer",
+          "valueId": "1",
+          "valueText": "C1"
+        },
+        {
+          "type": "Territory",
+          "valueId": "3",
+          "valueText": "T1"
+        }
+      ],
+      "modifiers": null,
+      "id": 31
+    },
+    {
+      "name": "",
+      "code": "",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "type": "",
+      "status": "",
+      "qualifiers": [
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        },
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        },
+        {
+          "type": "",
+          "valueId": "",
+          "valueText": ""
+        }
+      ],
+      "modifiers": null,
+      "id": 32
+    },
+    {
+      "name": "AccurePoints",
+      "code": "ACCPOINT",
+      "description": "sadfaks;dlfkj",
+      "startDate": "2018-03-13T18:30:00.000Z",
+      "endDate": "2018-03-27T18:30:00.000Z",
+      "type": "Accrual",
+      "status": "Active",
+      "qualifiers": [
+        {
+          "type": "Customer Group",
+          "valueId": "1",
+          "valueText": "LKJLKJ"
+        }
+      ],
+      "modifiers": null,
+      "id": 33
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hilman Associates"
+    },
+    {
+      "id": 2,
+      "name": "Business World"
+    },
+    {
+      "id": 3,
+      "name": "CDS Inc"
+    },
+    {
+      "id": 4,
+      "name": "A.C Networks"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "description": "Desktop Computers",
+      "uom": "Each",
+      "listprice": 100.43,
+      "currency": "USD"
+    },
+    {
+      "id": 2,
+      "description": "Laptop - Standard",
+      "uom": "Each",
+      "listprice": 138,
+      "currency": "USD"
+    },
+    {
+      "id": 3,
+      "description": "Laptop - Gaming",
+      "uom": "Each",
+      "listprice": 221.32,
+      "currency": "USD"
+    },
+    {
+      "id": 4,
+      "description": "Printer - Deskjet",
+      "uom": "Each",
+      "listprice": 70.11,
+      "currency": "USD"
+    },
+    {
+      "id": 5,
+      "description": "Printer - Laser",
+      "uom": "Each",
+      "listprice": 120.22,
+      "currency": "USD"
+    }
+  ],
+  "lookups": [
+    {
+      "qualtype": [
+        {
+          "id": 1,
+          "value": "Customer"
+        },
+        {
+          "id": 2,
+          "value": "Customer Group"
+        },
+        {
+          "id": 3,
+          "value": "Territory"
+        }
+      ]
+    }
+  ]
+}

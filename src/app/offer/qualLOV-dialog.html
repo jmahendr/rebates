@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>{{data.type}} Selection: </h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.returnId">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.returnText">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

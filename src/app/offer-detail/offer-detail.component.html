@@ -1,0 +1,15 @@
+<div class="componentContainer">
+  <div [hidden]="offer"> 
+    <mat-progress-spinner style="margin:0 auto;" mode="indeterminate"></mat-progress-spinner>
+    <h4 style="text-align:center;">Loading in progress. . . Please Wait.</h4>
+  </div>
+  
+  <div *ngIf="offer"> 
+    <H2>Offer: {{offer.name}}</H2>
+    <p>
+      {{offer.id}}: {{offer.name}}
+    </p>
+  </div>
+  
+   <a mat-raised-button [routerLink]="['/offer']" class="floatRight">Back</a>  
+</div>

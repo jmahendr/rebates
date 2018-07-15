@@ -1,0 +1,40 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 50px;
+  }
+
+  .mat-table {
+    overflow: auto;
+    max-height: 300px;
+
+  }
+
+  .mat-header-cell
+  {
+    color: primary-text-color;
+  }
+
+  .floatRight
+  {
+    float: right;
+  }
+
+
+
+  .create-headers-align .mat-expansion-panel-header-title,
+  .mat-expansion-panel-header-description {
+    flex-basis: 0;
+  }
+
+.create-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-form-field.txtarea {
+  min-height: 100px;
+  height: initial;
+  width: 80%;
+}
