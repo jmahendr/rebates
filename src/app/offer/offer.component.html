@@ -180,13 +180,29 @@
           <mat-datepicker #pickerEd></mat-datepicker>
 
           <p>
+            <!--
             <mat-form-field>
               <input matInput formControlName="type" placeholder="Offer Type">
+            </mat-form-field> -->
+            <mat-form-field>
+              <mat-select formControlName="type" placeholder="Offer Type">
+                <div *ngFor="let ot of offerType">
+                  <mat-option value="{{ot['value']}}">{{ot.value}}</mat-option>
+                </div>  
+              </mat-select>
             </mat-form-field>
-        
+
+            <!--
             <mat-form-field>
               <input matInput formControlName="status" placeholder="Offer Status">
-            </mat-form-field>
+            </mat-form-field> -->
+            <mat-form-field>
+                <mat-select formControlName="status" placeholder="Offer Status">
+                  <div *ngFor="let os of offerStatus">
+                    <mat-option value="{{os['value']}}">{{os.value}}</mat-option>
+                  </div>  
+                </mat-select>
+              </mat-form-field>
           </p>
 
           <p>
@@ -225,7 +241,7 @@
               <mat-form-field>
                 <!--<input matInput formControlName="type" placeholder="Qualifier Type">-->
                 <mat-select formControlName="type" placeholder="Qualifier Type">
-                  <div *ngFor="let qt of qualtype">
+                  <div *ngFor="let qt of qualType">
                     <mat-option value="{{qt['value']}}">{{qt.value}}</mat-option>
                   </div>  
                 </mat-select>

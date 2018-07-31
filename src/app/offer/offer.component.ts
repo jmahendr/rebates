@@ -23,7 +23,8 @@ export class OfferComponent implements OnInit {
   ngOnInit() {
     if(this.mode == 'summary')
       this.queryOffers();
-      this.loadLookups();
+      //this.loadLookups();
+      this.loadSeedData();
   }
 
   mode='summary';
@@ -96,7 +97,7 @@ export class OfferComponent implements OnInit {
       if (this.queryParams.hasOwnProperty(key))
       {
         // use key and its value
-        let newkey = key+"_like";
+        let newkey = key;
 
         //only add non null query params to new Query Object.
         if(this.queryParams[key])
@@ -122,7 +123,9 @@ export class OfferComponent implements OnInit {
    */
 
    offerForm: FormGroup;
-   qualtype = {};
+   qualType = {};
+   offerType = {};
+   offerStatus = {};
    offerData = {};
    offerCreateErr = null;
    submitAction = false;
@@ -216,8 +219,20 @@ export class OfferComponent implements OnInit {
     this.offerservice.getQualTypes()
     .subscribe(data => {
       console.log(data);
-      this.qualtype = data;
-      console.debug(JSON.stringify(this.qualtype))});
+      this.qualType = data;
+    });
+  }
+
+  loadSeedData() {
+    this.offerservice.getSeedData()
+    .subscribe(data => {
+      console.log(data['qualtype']);
+      this.qualType = data['qualtype'];
+      this.offerType = data['offertype'];
+      console.log(this.offerType);
+      this.offerStatus = data['offerstatus'];
+      console.log(this.offerStatus);
+    });
   }
 
   openDialog(i): void {

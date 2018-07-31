@@ -26,6 +26,10 @@ export class OfferService {
     .map(lookups => lookups);
   }
 
+  getSeedData() {
+    return this.restangular.one('seeddata').get();
+  }
+
   postOffer(data) : Observable<Offer> {
     console.log('data from postOffer');
     console.log(data);
