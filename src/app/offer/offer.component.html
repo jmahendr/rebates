@@ -75,7 +75,7 @@
         <!-- Name Column -->
         <ng-container matColumnDef="name">
           <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
-          <mat-cell *matCellDef="let offer"> <a [routerLink]="['/offerdetail',offer.id]" >{{offer.name}}</a></mat-cell>
+          <mat-cell *matCellDef="let offer" id="tableIdOffer"> <a [routerLink]="['/offerdetail',offer.id]" >{{offer.name}}</a></mat-cell>
         </ng-container>
     
         <!-- Code Column -->
